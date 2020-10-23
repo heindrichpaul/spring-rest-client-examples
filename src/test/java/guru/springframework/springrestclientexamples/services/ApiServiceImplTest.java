@@ -2,7 +2,9 @@ package guru.springframework.springrestclientexamples.services;
 
 import guru.springframework.api.domain.User;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,6 +14,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+@Ignore //Webflux examples
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ApiServiceImplTest {
